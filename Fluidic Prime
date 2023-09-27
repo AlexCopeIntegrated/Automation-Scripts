@@ -12,3 +12,7 @@ while x<=25:
   x+=1
   os.system("cls||clear")
   print(f"Prime Fluidics command executed {x} times.")
+
+
+## Power cycle loop - used to turn a computer off and on again in a loop. However, a loop cannot run and keep count while the system shuts down. To get around that, I created a script that uses a counter-- a file saved onto the computer that the script reads and writes to. This file keeps track of how many times the system has turned off and on again. I also had the computer automatically launch this script on startup. This feature and the counter together created a loop when we couldn't do that via code.
+I saved and ran this as a .cmd file (this is the extension for batch scripts).
