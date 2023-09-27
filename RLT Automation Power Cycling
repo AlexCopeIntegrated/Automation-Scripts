@@ -1,0 +1,7 @@
+For /F %%i In (C:\Users\Operator\Desktop\count.txt) Do (
+  Set /A i = %%i
+  Set /A o = i +1 
+)
+If %o% LEQ 314 (
+  Echo %o% >C:\Users\Operator\Desktop\count.txt
+  Shutdown /r
