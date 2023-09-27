@@ -5,3 +5,9 @@ For /F %%i In (C:\Users\Operator\Desktop\count.txt) Do (
 If %o% LEQ 314 (
   Echo %o% >C:\Users\Operator\Desktop\count.txt
   Shutdown /r
+
+
+
+
+## Prime fluidics loop - prime fluidics takes 5 minutes (occasionally a little more) so this script just clicks a button at a designated x,y coordinate once every couple of minutes
+I saved and ran this as a .py file, (this is the extension for python scripts).
