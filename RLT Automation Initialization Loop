@@ -14,3 +14,8 @@ For /L %%T IN (1,1,35) DO (
 Start BD_FACSDuet.exe
 Timeout /t 1080 /nobreak
 msg * FACSDuet has successfully completed a 36-time initialization loop.
+
+
+
+## Initialization loop - used to initialize software continuously. It launches the software, waits for initialization to complete, then exits the software and re-launches it, so that it can initialize once again.
+I saved and ran this as a .cmd file (this is the extension for batch scripts).
